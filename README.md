@@ -1,2 +1,2 @@
-# spring-boot-lombok
+# Spring Boot Lombok Example
 lombok öğrenme çalışması
