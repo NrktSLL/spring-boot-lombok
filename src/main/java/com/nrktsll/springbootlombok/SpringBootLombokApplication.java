@@ -3,7 +3,7 @@ package com.nrktsll.springbootlombok;
 import com.nrktsll.springbootlombok.model.Address;
 import com.nrktsll.springbootlombok.model.Person;
 import com.nrktsll.springbootlombok.model.Staff;
-import com.nrktsll.springbootlombok.model.Impl.PersonImpl;
+import com.nrktsll.springbootlombok.service.Impl.PersonImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;

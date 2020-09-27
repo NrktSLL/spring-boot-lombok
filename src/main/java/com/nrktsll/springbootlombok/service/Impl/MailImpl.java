@@ -1,4 +1,4 @@
-package com.nrktsll.springbootlombok.model.Impl;
+package com.nrktsll.springbootlombok.service.Impl;
 
 import com.nrktsll.springbootlombok.service.MailService;
 import org.springframework.stereotype.Service;

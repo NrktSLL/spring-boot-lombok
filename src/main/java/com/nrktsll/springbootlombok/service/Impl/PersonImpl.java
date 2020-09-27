@@ -1,4 +1,4 @@
-package com.nrktsll.springbootlombok.model.Impl;
+package com.nrktsll.springbootlombok.service.Impl;
 
 import com.nrktsll.springbootlombok.utils.MD5Generator;
 import com.nrktsll.springbootlombok.service.PersonService;
