@@ -1,13 +1,16 @@
 package com.nrktsll.springbootlombok.utils;
 
 import lombok.experimental.UtilityClass;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 @UtilityClass
-public final class MD5Generator {
+public class MD5Generator {
 
-    public static String getMD5(String data) throws NoSuchAlgorithmException {
+  public String NAME = "Static Degisken";
+
+    public String getMD5(String data) throws NoSuchAlgorithmException {
 
         MessageDigest messageDigest = MessageDigest.getInstance("MD5");
         messageDigest.update(data.getBytes());
